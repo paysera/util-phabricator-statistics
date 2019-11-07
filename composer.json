@@ -1,0 +1,14 @@
+{
+    "name": "paysera/util-phabricator-statistics",
+    "require": {
+        "psr/log": "^1.1",
+        "symfony/dom-crawler": "^3.4",
+        "symfony/css-selector": "^3.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paysera\\PhabricatorStatistics\\": "src"
+        }
+    }
+}
